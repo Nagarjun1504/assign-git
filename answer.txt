@@ -1,6 +1,8 @@
 1. What is a gitignore file and what should it include for a Java project?
 
-	.gitignore tells git which files (or patterns) it should ignore. It's usually used to avoid committing transient files from your working directory that aren't useful to other collaborators, such as compilation products, temporary files IDEs create, etc.
+	.gitignore tells git which files (or patterns) it should ignore. It's usually used to avoid committing transient files 
+	from your working directory that aren't useful to other collaborators, such as compilation products, temporary files 
+	IDEs create, etc.
 
 	Following things should be added in .gitignore file for a java project:
 	*.class
@@ -17,11 +19,17 @@
 	
 2. What does fast-forward in Git mean?
 
-	Let us consider that we have created a branch from master called test and commit all our changes to test and push it to the remote repository of test. Now if the master branch doesnt have any changes from the point we create the test branch to the point where we pushed our local changes to test repository, we can now merge our test branch to master. This doesnt create any merge conflict and the whole process is called as fast-forward.
+	Let us consider that we have created a branch from master called test and commit all our changes to test and push it 
+	to the remote repository of test. Now if the master branch doesnt have any changes from the point we create the test 
+	branch to the point where we pushed our local changes to test repository, we can now merge our test branch to master. 
+	This doesnt create any merge conflict and the whole process is called as fast-forward.
 	
 3. Why should you have different branches?
 	
-	In a project, various developers implement different User Stories/Features. Each developer will need to create a different branch so that the new feature being implemented does not conflict with the other feature being implemented. Creating a branch will clone the base branch and represent a copy of the base branch. At the end of the implementation, developers create a pull request and resolve the conflicts(if any) and push it to the base branch (often called as Master).
+	In a project, various developers implement different User Stories/Features. Each developer will need to create a 
+	different branch so that the new feature being implemented does not conflict with the other feature being implemented. 
+	Creating a branch will clone the base branch and represent a copy of the base branch. At the end of the implementation, 
+	developers create a pull request and resolve the conflicts(if any) and push it to the base branch (often called as Master).
 	
 4. In a project how many remote Git repositories do you usually have?
 	
