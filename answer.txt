@@ -29,7 +29,9 @@
 	In a project, various developers implement different User Stories/Features. Each developer will need to create a 
 	different branch so that the new feature being implemented does not conflict with the other feature being implemented. 
 	Creating a branch will clone the base branch and represent a copy of the base branch. At the end of the implementation, 
-	developers create a pull request and resolve the conflicts(if any) and push it to the base branch (often called as Master). 
+	developers create a pull request and resolve the conflicts(if any) and push it to the base branch (often called as Master).
+
+	Also having different branches will provide an isolated environment for every change in our code base.
 	
 4. In a project how many remote Git repositories do you usually have? 
 	
